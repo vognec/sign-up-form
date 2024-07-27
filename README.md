@@ -1,1 +1,3 @@
-# sign-up-form
+sign-up-form
+
+A mock sign up form built with CSS and JS for password validation.
