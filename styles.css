@@ -1,0 +1,139 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+.ibm-plex-mono-regular {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.main-container {
+    background-color: white;
+    width: 70%;
+    height: 100vh;
+    margin: 1em auto 1em auto;
+    display: flex;
+}
+
+.img-container {
+    width: 40%;
+    height: 100%;
+    background-image: url(img/cake.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-60%);
+}
+
+.logo {
+    height: 125px;
+    width: 125px;
+}
+
+.brand-text {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.sign-up-container {
+    width: 60%;
+    background-color: #F8F8F8;
+}
+
+p {
+    margin: 0;
+}
+.sign-up-text {
+    font-size: 1.4rem;
+    width: 80%;
+    padding-top: 9em;
+    padding-left: 1em;
+    padding-bottom: 1em;
+}
+
+.sign-now-text {
+    padding-top: 1em;
+    padding-left: 1em;
+    font-weight: 700;
+}
+
+.form-wrapper {
+    background-color: #FFFFFF;
+    box-shadow: 0 5px 2px -2px #888888;
+}
+.form-container {
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    width: 100%;
+    display: flex;
+    gap: 1.5em;
+}
+
+.input-wrapper {
+    margin-bottom: 1rem;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    all: unset;
+    border: 1px solid #CCCCCC;
+}
+
+input:focus {
+    border-color: #ADD8E6;
+    outline: none;
+}
+
+input:invalid {
+    border-color: #FF0000;
+}
+
+.form-text {
+    font-size: .8rem;
+    color: red;
+    display: none;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 1000px white inset !important;
+    box-shadow: 0 0 0 1000px white inset !important;
+    -webkit-text-fill-color: black !important;
+    caret-color: black !important;
+}
+
+button {
+    all: unset;
+    margin-left: 1em;
+    padding: .3em 1em;
+    margin-bottom: 1em;
+    background-color: #69350F;
+    color: #FFFFFF;
+    border-radius: 5px;
+    font-weight: 600;
+}
